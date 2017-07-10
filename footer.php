@@ -36,8 +36,8 @@
 
         firebase.auth().onAuthStateChanged(function(user) {
           if (user) {
-           // window.location.href = "main.php";
-            alert("user is signed in");
+           window.location.href = "main.php";
+       
           } else {
             // No user is signed in.
             alert("no user is signed in");
